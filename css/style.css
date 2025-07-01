@@ -1,0 +1,85 @@
+body {
+  scroll-behavior: smooth;
+  
+}
+
+.hero {
+  background: url('../img/pizza-8536177_1280.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 120px 0;
+  color: #222;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+#head{
+    color: #222;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#cardapio {
+  background-color: #111; /* um preto mais profundo */
+  color: #fff;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* escurece a imagem */
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.carousel-item img {
+  display: block;
+  margin: 0 auto;
+  max-height: 400px;
+  border-radius: 10px;
+  z-index: 0;
+  position: relative;
+}
+
+.carousel-item h3,
+.carousel-item p,
+.carousel-item strong {
+  position: relative;
+  z-index: 2;
+}
+
+.hero {
+  background: #212529;
+  background-size: cover;
+  padding: 120px 0;
+  color: #fff;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#logo2{
+    width: 300px;
+    height: 300px;
+}
+
+h1{}

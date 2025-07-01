@@ -1,0 +1,38 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #212529;
+  color: #fff;
+  padding-top: 80px;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border: none;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.form-label {
+  color: #ccc;
+}
+
+.btn-enviar {
+  background-color: #ffca2c;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-enviar:hover {
+  background-color: #ffc107;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
