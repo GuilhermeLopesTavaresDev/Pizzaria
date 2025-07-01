@@ -1,3 +1,4 @@
-[submodule "Pizzaria"]
-  path = Pizzaria
-  url = https://github.com/GuilhermeLopesTavaresDev/Pizzaria/home.html
+[submodule "Bella-Napoli"]
+  path = Bella-Napoli
+  url = https://github.com/GuilhermeLopesTavaresDev/Bella-Napoli.git
+
